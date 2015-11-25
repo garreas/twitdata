@@ -1,3 +1,4 @@
+
 import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 
@@ -6,6 +7,8 @@ import java.lang.String;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import com.mongodb.*;
 
 
 public class SearchTweets {
@@ -18,6 +21,9 @@ public class SearchTweets {
         .setOAuthAccessTokenSecret("aojWESzlrNr9qvdRzSmUKGEljaNBvBzrq8cD1Hq432cJi");
         Twitter twitter = new TwitterFactory(cb.build()).getInstance();
         try {
+        	MongoClient mongoClient = new MongoClient( "localhost" , 27017 );
+            DB db = mongoClient.getDB( "twitdata" );
+            DBCollection coll = db.getCollection("tweettest");
         	DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         	Date date = new Date();
         	Query query = new Query(args[0]).since(dateFormat.format(date));
@@ -26,7 +32,11 @@ public class SearchTweets {
             	statuses = twitter.search(query);
                 List<Status> tweets = statuses.getTweets();
                 for (Status tweet : tweets) {
-                    System.out.println("DATE: " + tweet.getCreatedAt() + " - " + tweet.getText());
+                	BasicDBObject doc = new BasicDBObject("User", tweet.getUser().getScreenName())
+                			.append("Location", tweet.getUser().getLocation())
+                			.append("CreateAt", tweet.getCreatedAt())
+                			.append("Contents", tweet.getText());
+                	coll.insert(doc);
                 }
             } while ((query = statuses.nextQuery()) != null);
             System.exit(0);
