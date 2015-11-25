@@ -7,9 +7,9 @@ import java.lang.String;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.net.UnknownHostException;
 
 import com.mongodb.*;
-
 
 public class SearchTweets {
     
@@ -21,12 +21,12 @@ public class SearchTweets {
         .setOAuthAccessTokenSecret("aojWESzlrNr9qvdRzSmUKGEljaNBvBzrq8cD1Hq432cJi");
         Twitter twitter = new TwitterFactory(cb.build()).getInstance();
         try {
-        	MongoClient mongoClient = new MongoClient( "localhost" , 27017 );
+        	MongoClient mongoClient = new MongoClient();
             DB db = mongoClient.getDB( "twitdata" );
-            DBCollection coll = db.getCollection("tweettest");
+            DBCollection coll = db.getCollection("twit_colec");
         	DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
         	Date date = new Date();
-        	Query query = new Query(args[0]).since(dateFormat.format(date));
+        	Query query = new Query(args[0]).since(dateFormat.format(date)).resultType(Query.POPULAR);
             QueryResult statuses;
             do {
             	statuses = twitter.search(query);
@@ -44,6 +44,10 @@ public class SearchTweets {
             te.printStackTrace();
             System.out.println("Failed to search tweets: " + te.getMessage());
             System.exit(-1);
-        }
+        } catch (UnknownHostException e) {
+			e.printStackTrace();
+			System.out.println("Failed to search tweets: " + e.getMessage());
+            System.exit(-1);
+		}
     }
 }
