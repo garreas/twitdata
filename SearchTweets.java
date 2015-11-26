@@ -25,8 +25,18 @@ public class SearchTweets {
             DB db = mongoClient.getDB( "twitdata" );
             DBCollection coll = db.getCollection("twit_colec");
         	DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-        	Date date = new Date();
-        	Query query = new Query(args[0]).since(dateFormat.format(date)).resultType(Query.POPULAR);
+        	Date today = new Date();
+            Date yesterday = new Date(today.getTime() - (1000 * 60 * 60 * 24));
+            int len = args.length;
+            Query query = new Query(args[0]).since(dateFormat.format(yesterday));
+            if (len == 2)
+            {
+            	query = query.resultType(Query.POPULAR).lang(args[1]);
+            }
+            else
+            {
+            	query = query.resultType(Query.POPULAR);
+            }
             QueryResult statuses;
             do {
             	statuses = twitter.search(query);
