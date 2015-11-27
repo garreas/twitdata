@@ -8,16 +8,28 @@
 
         {% block stylesheets %}
             <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+            <link rel="stylesheet" href="{{ asset('assets/css/chart.css') }}">
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+            <script type="text/javascript" src="{{ asset('assets/js/chart.js') }}"></script>
+
         {% endblock %}
     </head>
-    <body>
+    <body onload=' location.href="#scroll"'>
         <div class="container">
             <div id="header" class="jumbotron">
                 <h1>Twit Data</h1>
-                    <p>
-                        {% block twit %}
-                        {% endblock %}
-                    </p>
+            </div>
+            <div id="form" style="margin: auto; padding: 2%; width: 23%; background-color: azure; border: medium solid rgb(156, 207, 209); border-radius: 12px;">
+                {% block form %}
+                {% endblock %}
+            </div>
+            <div style="width: 49%; display: table-cell">
+                {% block twit %}
+                {% endblock %}
+            </div>
+            <div style="width: 49%; display: table-cell">
+                {% block render %}
+                {% endblock %}
             </div>
         </div>
     </body>
