@@ -1,0 +1,32 @@
+{% extends ":default:layout.html.twig" %}
+{% block form %}
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+{% endblock %}
+{% block twit %}
+    {% if twits is empty %}
+        {% if post == 'POST' %}
+            <h2>Aucun top tweets</h2>
+        {% endif %}
+    {% else %}
+        <h2>Top Tweet(s) des dernières 24h</h2>
+        {% for twit in twits %}
+            <section style="background-color: rgb(190, 226, 234); float: left; border-radius: 7px; padding: 3%; width: 95%; margin: 1%; position: relative;">
+                <img src="https://g.twimg.com/Twitter_logo_blue.png" width="3%" height="3%"/>
+                <a href="http://twitter.com/{{ twit.user }}">{{ twit.user }}</a>
+                <p>{{ twit.contents }}</p>
+                <p>{{ twit.createAt|date('Y-m-d') }}</p>
+                <p>{{ twit.location }}</p>
+            </section>
+        {% endfor %}
+    {% endif %}
+{% endblock %}
+{% block render %}
+    {% if twits is not empty %}
+        <h2>Reporting</h2>
+        <section style="background-color: rgb(190, 226, 234); float: left; border-radius: 7px; padding: 3%; width: 95%; margin: 1%; position: relative;">
+            <p>Nombre de tweets: {{ twits|length }}</p>
+        </section>
+    {% endif %}
+{% endblock %}

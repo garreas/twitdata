@@ -1,0 +1,40 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: crea
+ * Date: 26/11/15
+ * Time: 17:24
+ */
+
+namespace Twit\DataBundle\Document;
+
+use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
+
+/**
+ * Class Twit
+ * @package Twit\DataBundle\Document
+ * @MongoDB\Document
+ */
+class Twit
+{
+    /**
+     * @MongoDB\Id
+     */
+    protected $_id;
+    /**
+     * @MongoDB\String
+     */
+    protected  $User;
+    /**
+     * @MongoDB\String
+     */
+    protected $Location;
+    /**
+     * @MongoDB\date
+     */
+    protected $CreateAt;
+    /**
+     * @MongoDB\String
+     */
+    protected $Contents;
+}
