@@ -24,7 +24,7 @@
         tipOffsetY: -45,
         tipClass: "doughnutTip",
         summaryClass: "doughnutSummary",
-        summaryTitle: "TOTAL:",
+        summaryTitle: data[0].title,
         summaryTitleClass: "doughnutSummaryTitle",
         summaryNumberClass: "doughnutSummaryNumber",
         beforeDraw: function() {  },

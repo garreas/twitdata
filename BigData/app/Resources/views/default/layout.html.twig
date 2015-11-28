@@ -16,10 +16,10 @@
     </head>
     <body onload=' location.href="#scroll"'>
         <div class="container">
-            <div id="header" class="jumbotron">
-                <h1>Twit Data</h1>
+            <div style="background-image: url('../assets/logo.jpg'); height: 232px; background-position: center center; background-size: 65% auto; width: 76%; margin: auto;" id="header" class="jumbotron">
             </div>
-            <div id="form" style="margin: auto; padding: 2%; width: 23%; background-color: azure; border: medium solid rgb(156, 207, 209); border-radius: 12px;">
+            </br>
+            <div id="form" style="margin: auto; padding: 2%; width: 23%; border: medium solid #D8DEDE; border-radius: 12px;">
                 {% block form %}
                 {% endblock %}
             </div>
@@ -32,5 +32,7 @@
                 {% endblock %}
             </div>
         </div>
+        </br>
+        <div class="footer">Copyright SCC1 - All rights reserved</div>
     </body>
 </html>
