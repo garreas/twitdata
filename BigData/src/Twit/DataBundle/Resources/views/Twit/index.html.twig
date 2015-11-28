@@ -34,6 +34,9 @@
         <h2 id="scroll" href="#">Reporting</h2>
         <section style="background-color: #D5D5D5; float: left; border-radius: 7px; padding: 3%; width: 95%; margin: 1%; position: relative; height: 500px;">
             <div id="doughnutChart" class="chart"></div>
+            {% for sent in sentiments %}
+                <p>{{ sent['docSentiment']['type'] }}</p>
+            {% endfor %}
         </section>
     {% endif %}
 {% endblock %}

@@ -4,10 +4,10 @@ namespace Twit\DataBundle\Controller;
 
 use Twit\DataBundle\Document\hashtag;
 use Twit\DataBundle\Document\twit_colec;
+use Twit\DataBundle\Document\alchemiapi;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\Process\Process;
 use Symfony\Component\HttpFoundation\Request;
-
 
 class TwitController extends Controller
 {
@@ -36,6 +36,12 @@ class TwitController extends Controller
             $process->run();
         }
         $twits = $repository->findAll();
-        return $this->render('TwitDataBundle:Twit:index.html.twig', array('twits' => $twits, 'form' => $form->createView(), 'post' => $request->getMethod(),));
+        $alchemyapi = new alchemiapi("1f00b17bbd3c66ff251fe27b173f289b814cb341");
+        $response = null;
+        foreach ($twits as $twit)
+        {
+            $response[] = $alchemyapi->sentiment('text', $twit->getContents(), null);
+        }
+        return $this->render('TwitDataBundle:Twit:index.html.twig', array('twits' => $twits, 'form' => $form->createView(), 'post' => $request->getMethod(), 'sentiments' => $response));
     }
 }

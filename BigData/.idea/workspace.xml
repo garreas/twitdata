@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c782b07f-fd38-427d-af62-63c22db44e24" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Twit/DataBundle/Document/alchemiapi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlGenerator.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/app/cache/dev/appDevUrlMatcher.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/doctrine/mongodb-odm" afterPath="$PROJECT_DIR$/vendor/doctrine/mongodb-odm" />
@@ -14,11 +15,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/12/1239b929480388119b9315a7cc826b4aad8f89dc769a165741eb7b60ef05e894.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/12/1239b929480388119b9315a7cc826b4aad8f89dc769a165741eb7b60ef05e894.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/1c/1c43c41d0e44d060631813371287721f0e7690658c7c3badb35341b3b71576ad.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/1c/1c43c41d0e44d060631813371287721f0e7690658c7c3badb35341b3b71576ad.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/23/23d6470713df4e55597840495887d3fffaaf63d7c4e6ea3e1e42de4484577ea1.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/23/23d6470713df4e55597840495887d3fffaaf63d7c4e6ea3e1e42de4484577ea1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/38/3810fd11247f53bb6e13cec954228efca9de62ab25b5be345f40b5303f4e942b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/38/3810fd11247f53bb6e13cec954228efca9de62ab25b5be345f40b5303f4e942b.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3a/3a81f57387f64e38896a9ae2021c6ceeec75fff3e9fbd04d05d3998ee0181184.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/3a/3a81f57387f64e38896a9ae2021c6ceeec75fff3e9fbd04d05d3998ee0181184.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3d/3d378867298aeb866f9a933050c5f598365979b3e6d1d6b836f22a0103f5eb65.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/3d/3d378867298aeb866f9a933050c5f598365979b3e6d1d6b836f22a0103f5eb65.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/42/42258475654782602cbfe94cd3d859fcc3e15a64835a33c4d524af0671c77a53.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/42/42258475654782602cbfe94cd3d859fcc3e15a64835a33c4d524af0671c77a53.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/42/42bf21ca64d7f3d28c1937ffeacdd0cf6f87056f00c2a98616f5d0666f867fbd.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/42/42bf21ca64d7f3d28c1937ffeacdd0cf6f87056f00c2a98616f5d0666f867fbd.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/45/4522df4c26ef7e7123e068450d74da754ad6840bf6d35a9abc74b363f6e3e4d0.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/45/4522df4c26ef7e7123e068450d74da754ad6840bf6d35a9abc74b363f6e3e4d0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5f/5fa62765335600f2faf8abc7ff9bf7972925695c370f0fe92a2c00c9b099f311.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/5f/5fa62765335600f2faf8abc7ff9bf7972925695c370f0fe92a2c00c9b099f311.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/65/65c89e6e76446155cbe123f78f5109383dd0e982fe0c6bc6af903dda0e813520.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/65/65c89e6e76446155cbe123f78f5109383dd0e982fe0c6bc6af903dda0e813520.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/68/688422c09d87f68a2b9d8d2d14740d6dac41c89fc9e861b5c1625cf74ed60968.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/68/688422c09d87f68a2b9d8d2d14740d6dac41c89fc9e861b5c1625cf74ed60968.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/68/68a6771ccfb81e0b43a384f17e93741e15490a9cb4ea22f53a64684d497521e0.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/68/68a6771ccfb81e0b43a384f17e93741e15490a9cb4ea22f53a64684d497521e0.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/74/7413560f45ce62f2a3d0cecb98b96ab13ef472ae5ca2776e9d94c5b8ef1a8457.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/74/7413560f45ce62f2a3d0cecb98b96ab13ef472ae5ca2776e9d94c5b8ef1a8457.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/78/78f23b776e38586ec2c8a4cddb08fb8b842b69898ca8cc77603478383326c2d5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/78/78f23b776e38586ec2c8a4cddb08fb8b842b69898ca8cc77603478383326c2d5.php" />
@@ -31,12 +36,18 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/9a/9a4dd430bc2611a2368289831d9019d0c881836637fa6307a205558f0b5070a8.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/9a/9a4dd430bc2611a2368289831d9019d0c881836637fa6307a205558f0b5070a8.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b5/b58fe7e157964ae5b862a153896d7d5b967971c27b6d2934ca7ab67f2f773091.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/b5/b58fe7e157964ae5b862a153896d7d5b967971c27b6d2934ca7ab67f2f773091.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b5/b5f77731b429b4788c9e511ce1b9e9e7f8b64093796268d794b7266e9915fa16.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/b5/b5f77731b429b4788c9e511ce1b9e9e7f8b64093796268d794b7266e9915fa16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b5/b5fb591488e8c8031f3669b760197be181378798d35927912e33fb6842483c89.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/b5/b5fb591488e8c8031f3669b760197be181378798d35927912e33fb6842483c89.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b7/b7c63efad6b4c767ef65ffb8bcc2902c4804bdccd818aab0f8bc319f78f77d9f.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/b7/b7c63efad6b4c767ef65ffb8bcc2902c4804bdccd818aab0f8bc319f78f77d9f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/be/be3ac4b7dd7b7a8acf9d3b69b737c5b5be51158d2a0821bb314a7ad7a305c8b9.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/be/be3ac4b7dd7b7a8acf9d3b69b737c5b5be51158d2a0821bb314a7ad7a305c8b9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c1/c1bffa4317559ea6f4448b15d9d784d726b542e40228c7e793b64fdfe1c53303.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c1/c1bffa4317559ea6f4448b15d9d784d726b542e40228c7e793b64fdfe1c53303.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c3/c3eb72f722d84080140aede1dfac73accf4008ba051ee2120734b4059bcb124d.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/c3/c3eb72f722d84080140aede1dfac73accf4008ba051ee2120734b4059bcb124d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/db/db9cb85ceeebf0f850193de504d40d99948b3d894897b58f2b636cf273c96e63.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/db/db9cb85ceeebf0f850193de504d40d99948b3d894897b58f2b636cf273c96e63.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/de/de7ed022d33ea37be456a5186de2c767fe2fb12d5b93ceacef2be862cd9293a4.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/de/de7ed022d33ea37be456a5186de2c767fe2fb12d5b93ceacef2be862cd9293a4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e2/e2a84cb1f55c5bc5ba49dc8c64bc2ecc5bc82393e272352cde10a9958af3c7a3.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/e2/e2a84cb1f55c5bc5ba49dc8c64bc2ecc5bc82393e272352cde10a9958af3c7a3.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ea/ea68ae2a308e59e58b6f4dd63f281c8813bc602a034af47502d859ce729cae28.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ea/ea68ae2a308e59e58b6f4dd63f281c8813bc602a034af47502d859ce729cae28.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed2f54972ab0058f3ec4d3a86b87729c446fe24bf72dfb52f4637290c2249f9f.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed2f54972ab0058f3ec4d3a86b87729c446fe24bf72dfb52f4637290c2249f9f.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Twit/DataBundle/Controller/TwitController.php" afterPath="$PROJECT_DIR$/src/Twit/DataBundle/Controller/TwitController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Twit/DataBundle/Resources/views/Twit/index.html.twig" afterPath="$PROJECT_DIR$/src/Twit/DataBundle/Resources/views/Twit/index.html.twig" />
     </list>
     <ignored path="BigData.iws" />
@@ -63,12 +74,32 @@
         <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Controller/TwitController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-18.666666">
-              <caret line="38" column="156" selection-start-line="38" selection-start-column="156" selection-end-line="38" selection-end-column="156" />
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
               <folding>
                 <element signature="e#46#83#0#PHP" expanded="true" />
-                <element signature="e#753#780#1#PHP" expanded="true" />
-                <element signature="e#1587#1624#0#PHP" expanded="true" />
+                <element signature="e#793#820#1#PHP" expanded="true" />
+                <element signature="e#1875#1912#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Configuration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/DependencyInjection/Configuration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwitDataExtension.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/DependencyInjection/TwitDataExtension.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +107,8 @@
       <file leaf-file-name="twit_colec.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/twit_colec.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.25926">
-              <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+            <state vertical-scroll-proportion="-85.333336">
+              <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -86,8 +117,18 @@
       <file leaf-file-name="hashtag.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/hashtag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.0">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alchemiapi.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/alchemiapi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.3333333">
+              <caret line="731" column="65" selection-start-line="731" selection-start-column="65" selection-end-line="731" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -96,12 +137,10 @@
       <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.666667">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state vertical-scroll-proportion="-20.666666">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,12 +149,9 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Resources/views/Twit/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7837838">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-              <folding>
-                <element signature="e#405#540#0#HTML" expanded="true" />
-                <element signature="e#1298#1437#0#HTML" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.6486486">
+              <caret line="34" column="157" selection-start-line="34" selection-start-column="157" selection-end-line="34" selection-end-column="157" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,8 +179,10 @@
         <option value="$PROJECT_DIR$/src/Twit/DataBundle/Document/Twit.php" />
         <option value="$PROJECT_DIR$/src/Twit/DataBundle/Document/twitcolec_colec.php" />
         <option value="$PROJECT_DIR$/src/Twit/DataBundle/Document/twit_colec.php" />
-        <option value="$PROJECT_DIR$/src/Twit/DataBundle/Controller/TwitController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Twit/DataBundle/Document/hashtag.php" />
+        <option value="$PROJECT_DIR$/src/Twit/DataBundle/Document/alchemiapi.php" />
+        <option value="$PROJECT_DIR$/src/Twit/DataBundle/Controller/TwitController.php" />
         <option value="$PROJECT_DIR$/src/Twit/DataBundle/Resources/views/Twit/index.html.twig" />
       </list>
     </option>
@@ -159,10 +197,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="26" />
-    <option name="width" value="1442" />
-    <option name="height" value="828" />
+    <option name="y" value="27" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -374,7 +411,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.alchemiapi.php">
+    <configuration default="false" name="alchemiapi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/src/Twit/DataBundle/Document/alchemiapi.php">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -399,6 +439,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.alchemiapi.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.alchemiapi.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -427,12 +475,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="26" width="1442" height="828" extended-state="7" />
+    <frame x="0" y="27" width="1440" height="825" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23680556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.50293255" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -440,6 +487,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.49706745" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -475,11 +523,57 @@
     <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Controller/TwitController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="156" selection-start-line="38" selection-start-column="156" selection-end-line="38" selection-end-column="156" />
+          <folding>
+            <element signature="e#46#83#0#PHP" expanded="true" />
+            <element signature="e#793#820#1#PHP" expanded="true" />
+            <element signature="e#1875#1912#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/twit_colec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/hashtag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Resources/views/Twit/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Controller/TwitController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#46#83#0#PHP" expanded="true" />
-            <element signature="e#753#780#1#PHP" expanded="true" />
-            <element signature="e#1587#1624#0#PHP" expanded="true" />
+            <element signature="e#793#820#1#PHP" expanded="true" />
+            <element signature="e#1875#1912#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -497,9 +591,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -508,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -516,10 +607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#405#540#0#HTML" expanded="true" />
-            <element signature="e#1298#1437#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -529,8 +617,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#46#83#0#PHP" expanded="true" />
-            <element signature="e#753#780#1#PHP" expanded="true" />
-            <element signature="e#1587#1624#0#PHP" expanded="true" />
+            <element signature="e#793#820#1#PHP" expanded="true" />
+            <element signature="e#1875#1912#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -540,9 +628,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -551,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,10 +644,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#405#540#0#HTML" expanded="true" />
-            <element signature="e#1298#1437#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -646,10 +728,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6052632">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/hashtag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/twit_colec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-85.333336">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/alchemiapi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333">
+          <caret line="731" column="65" selection-start-line="731" selection-start-column="65" selection-end-line="731" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -662,62 +775,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6052632">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/hashtag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Controller/TwitController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.666666">
-          <caret line="38" column="156" selection-start-line="38" selection-start-column="156" selection-end-line="38" selection-end-column="156" />
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
           <folding>
             <element signature="e#46#83#0#PHP" expanded="true" />
-            <element signature="e#753#780#1#PHP" expanded="true" />
-            <element signature="e#1587#1624#0#PHP" expanded="true" />
+            <element signature="e#793#820#1#PHP" expanded="true" />
+            <element signature="e#1875#1912#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Document/twit_colec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.25926">
-          <caret line="111" column="33" selection-start-line="111" selection-start-column="33" selection-end-line="111" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state vertical-scroll-proportion="-20.666666">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Twit/DataBundle/Resources/views/Twit/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7837838">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding>
-            <element signature="e#405#540#0#HTML" expanded="true" />
-            <element signature="e#1298#1437#0#HTML" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.6486486">
+          <caret line="34" column="157" selection-start-line="34" selection-start-column="157" selection-end-line="34" selection-end-column="157" />
+          <folding />
         </state>
       </provider>
     </entry>
