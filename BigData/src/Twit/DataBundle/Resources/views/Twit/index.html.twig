@@ -10,7 +10,8 @@
             <h2 xmlns="http://www.w3.org/1999/html">Aucun top tweets</h2>
         {% endif %}
     {% else %}
-        <h2>Top Tweet(s) des dernières 24h</h2>
+        <h2>Top Tweet(s) last 24 hours</h2>
+        {% set count = 0 %}
         {% for twit in twits %}
             <section style="background-color: #C4F9FF; float: left; border-radius: 7px; padding: 3%; width: 95%; margin: 1%; position: relative;">
                 <img src="https://g.twimg.com/Twitter_logo_blue.png" width="3%" height="3%"/>
@@ -18,7 +19,11 @@
                 <p>{{ twit.contents }}</p>
                 <p>{{ twit.createAt|date('Y-m-d') }}</p>
                 <p>{{ twit.location }}</p>
+                {% if sentiments[count]['status'] == 'OK' %}
+                    <p>Tweet sentiment: {{ sentiments[count]['docSentiment']['type'] }}</p>
+                {% endif %}
             </section>
+            {% set count = count + 1 %}
         {% endfor %}
     {% endif %}
 {% endblock %}
@@ -27,11 +32,11 @@
         <script>
             $(function(){
                 $("#doughnutChart").drawDoughnutChart([
-                    { title: "Tweets", value : {{ twits|length}},  color: "#C4F9FF" }
+                    { title: "Tweets count", value : {{ twits|length}},  color: "#C4F9FF" }
                 ]);
             });
         </script>
-        <h2 id="scroll" href="#">Reporting</h2>
+        <h2 id="scroll" href="#">Sentiment Analysis Report</h2>
         <section style="background-color: #D5D5D5; float: left; border-radius: 7px; padding: 3%; width: 95%; margin: 1%; position: relative; height: 500px;">
             <section style="position: relative; width: 33%; margin-left: 58%; margin-top: 17%;">
                 <div id="doughnutChart" class="chart"></div>
@@ -40,12 +45,14 @@
         {% set type_net = 0 %}
         {% set type_neg = 0 %}
         {% for sent in sentiments %}
-            {% if sent['docSentiment']['type'] == 'positive' %}
-                {% set type_pos = type_pos + 1 %}
-            {% elseif sent['docSentiment']['type'] == 'neutral' %}
-                {% set type_net = type_net + 1 %}
-            {% elseif sent['docSentiment']['type'] == 'negative' %}
-                {% set type_neg = type_neg + 1 %}
+            {% if sent['status'] == 'OK' %}
+                {% if sent['docSentiment']['type'] == 'positive' %}
+                    {% set type_pos = type_pos + 1 %}
+                {% elseif sent['docSentiment']['type'] == 'neutral' %}
+                    {% set type_net = type_net + 1 %}
+                {% elseif sent['docSentiment']['type'] == 'negative' %}
+                    {% set type_neg = type_neg + 1 %}
+                {% endif %}
             {% endif %}
         {% endfor %}
         <script>
