@@ -23,6 +23,10 @@
                 {% block form %}
                 {% endblock %}
             </div>
+            <div class="svg">
+                {% block loader %}
+                {% endblock %}
+            </div>
             <div style="width: 49%; display: table-cell">
                 {% block twit %}
                 {% endblock %}
@@ -34,5 +38,12 @@
         </div>
         </br>
         <div class="footer">Copyright SCC1 - All rights reserved</div>
+        <script type="text/javascript">
+            $("button").click(function () {
+                $('.svg').css('visibility', 'visible');
+                $('#form').css('visibility', 'hidden');
+                return true;
+            });
+        </script>
     </body>
 </html>

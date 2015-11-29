@@ -1,12 +1,27 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:400);
+@import url(http://fonts.googleapis.com/css?family=Comfortaa:400,700,300);
+
+.svg {
+  display: inline-block;
+  width: 18%;
+  height: 100%;
+  position: fixed;
+  top: 236px;
+  left: 589px;
+  visibility: hidden;
+}
+
+#form {
+  visibility: visible;
+}
 
 button {
-  background: #62befc;
-  background-image: -webkit-linear-gradient(top, #62befc, #144b6e);
-  background-image: -moz-linear-gradient(top, #62befc, #144b6e);
-  background-image: -ms-linear-gradient(top, #62befc, #144b6e);
-  background-image: -o-linear-gradient(top, #62befc, #144b6e);
-  background-image: linear-gradient(to bottom, #62befc, #144b6e);
+  background: #DEDEDE;
+  background-image: -webkit-linear-gradient(top, #DEDEDE, #DEDEDE);
+  background-image: -moz-linear-gradient(top, #DEDEDE, #DEDEDE);
+  background-image: -ms-linear-gradient(top, #DEDEDE, #DEDEDE);
+  background-image: -o-linear-gradient(top, #DEDEDE, #DEDEDE);
+  background-image: linear-gradient(to bottom, #DEDEDE, #DEDEDE);
   -webkit-border-radius: 39;
   -moz-border-radius: 39;
   border-radius: 39px;
@@ -18,12 +33,12 @@ button {
 }
 
 button:hover {
-  background: #0daba8;
-  background-image: -webkit-linear-gradient(top, #0daba8, #0bd6d9);
-  background-image: -moz-linear-gradient(top, #0daba8, #0bd6d9);
-  background-image: -ms-linear-gradient(top, #0daba8, #0bd6d9);
-  background-image: -o-linear-gradient(top, #0daba8, #0bd6d9);
-  background-image: linear-gradient(to bottom, #0daba8, #0bd6d9);
+  background: #62befc;
+  background-image: -webkit-linear-gradient(top, #62befc, #144b6e);
+  background-image: -moz-linear-gradient(top, #62befc, #144b6e);
+  background-image: -ms-linear-gradient(top, #62befc, #144b6e);
+  background-image: -o-linear-gradient(top, #62befc, #144b6e);
+  background-image: linear-gradient(to bottom, #62befc, #144b6e);
   text-decoration: none;
 }
 
